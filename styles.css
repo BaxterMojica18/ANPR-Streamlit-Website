@@ -1,0 +1,43 @@
+
+/* Styling for <p> elements inside the specific container */
+div[data-testid="stMarkdownContainer"] p {
+    /*color: rgb(0, 0, 0);
+    /*text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff; /* Black outline */
+    font-weight: bold; /* Optional: Makes text bold */
+}
+/* Styling for <p> elements inside the specific container */
+div[data-testid="stMarkdownContainer"] p {
+    color: rgb(38, 38, 38);
+    /*font-weight: bold; /* Optional: Makes text bold */
+}
+
+/* Styling for <h2> elements in the sidebar */
+.aside h2 {
+    color: rgb(255, 255, 255); /* White text */
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black outline */
+    /*font-weight: bold; /* Optional: Make the text bold */
+}
+
+/* Styling for <h2> elements in the main page */
+h2 {
+    color: rgb(38, 38, 38); /* White text */
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Black outline */
+    font-weight: bold; /* Optional: Make the text bold */
+}
+
+/* General button styling */
+button[data-testid="stBaseButton-secondary"] {
+    background-color: #e16f69; /* Default background color */
+    color: #232323; /* Default font color */
+    /*border: 2px solid black; /* Optional: Add a black border for better visibility */
+    font-weight: bold; /* Optional: Make the text bold */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for buttons */
+button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: rgb(183, 183, 183); /* Background changes to black on hover */
+    color: rgb(255, 255, 255); /* Font changes to white on hover */
+    /*border: 2px solid white; /* Optional: Border changes to white */
+}
+
